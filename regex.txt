@@ -1,0 +1,3 @@
+./synoptic.sh -r '^(?<TYPE>),(?<txId>)' -m '\\k<txId>' -o output/qa_all traces/qa/traces_all.txt
+
+time ./invarimint.sh -r '^(?<TYPE>),(?<txId>)' -m '\\k<txId>' -o output/qa_all --invMintSynoptic=true --logLvlExtraVerbose=true traces/qa/traces_16_36_96th.txt

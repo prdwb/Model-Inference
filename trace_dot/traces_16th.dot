@@ -1,0 +1,14 @@
+digraph G {
+  0 [label="GG"];
+  1 [label="OQ"];
+  2 [label="PA"];
+  3 [label="PF"];
+  4 [label="TERMINAL",shape=diamond];
+  5 [label="INITIAL",shape=box];
+0->4 [label="P: 1.00"];
+1->2 [label="P: 1.00"];
+2->0 [label="P: 0.50"];
+2->3 [label="P: 0.50"];
+3->4 [label="P: 1.00"];
+5->1 [label="P: 1.00"];
+}
