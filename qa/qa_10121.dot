@@ -1,0 +1,10 @@
+digraph G {
+  0 [label="OQ"];
+  1 [label="PA"];
+  2 [label="TERMINAL",shape=diamond];
+  3 [label="INITIAL",shape=box];
+0->1 [label="P: 1.00"];
+1->1 [label="P: 0.50"];
+1->2 [label="P: 0.50"];
+3->0 [label="P: 1.00"];
+}

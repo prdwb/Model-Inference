@@ -1,0 +1,21 @@
+digraph G {
+  0 [label="FD"];
+  1 [label="GG"];
+  2 [label="OQ"];
+  3 [label="PA"];
+  4 [label="PF"];
+  5 [label="TERMINAL",shape=diamond];
+  6 [label="INITIAL",shape=box];
+0->5 [label="P: 1.00"];
+1->0 [label="P: 0.20"];
+1->1 [label="P: 0.20"];
+1->4 [label="P: 0.20"];
+1->5 [label="P: 0.40"];
+2->1 [label="P: 0.50"];
+2->3 [label="P: 0.50"];
+3->0 [label="P: 0.33"];
+3->1 [label="P: 0.33"];
+3->4 [label="P: 0.33"];
+4->5 [label="P: 1.00"];
+6->2 [label="P: 1.00"];
+}
