@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from pprint import pprint
 
 # for python3 networkx 2.0
-INPUT='./qa_all_refine.dot'
-OUTPUT='./qa_all_refine_style.dot'
+INPUT='../figures and graphs/qa_all_refine.dot'
+OUTPUT='../figures and graphs/qa_all_refine_style.dot'
 G = nx.DiGraph(nx.drawing.nx_pydot.read_dot(INPUT))
 
 for nodes, nodes_datadict in G.nodes.items():
