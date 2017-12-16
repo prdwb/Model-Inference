@@ -12,8 +12,8 @@ Model inference is a powerful technique to inspect the process and gain insights
 
 # Scripts
 * estimate_steps.py ---- to estimate the steps to complete a conversation
-* get_first_dialogs.ipynb ---- 
-* modify_dot.py / modify_dot.ipynb ---- to modify the dot file to a easy to show pattern with colorful nodes and black edges
+* get_first_n_dialogs.ipynb ---- generate a series of traces of different numbers for sensitivity analysis
+* modify_dot.py/ipynb ---- to modify the dot file to a easy to show pattern with colorful nodes and black edges
 * refine_model.py ---- to refine the model and exclude potential false annotation edges
 * seperate_train.py ---- to train all the dialogues separately
 * split_train_test.ipynb ---- split train/test sets for generalization experiments
